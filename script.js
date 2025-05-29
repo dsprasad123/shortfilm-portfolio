@@ -61,3 +61,6 @@ window.addEventListener('scroll', () => {
     ticking = true;
   }
 });
+window.addEventListener('load', function () {
+  window.scrollTo(0, 0);
+});
