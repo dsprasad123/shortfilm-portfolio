@@ -62,5 +62,8 @@ window.addEventListener('scroll', () => {
   }
 });
 window.addEventListener('load', function () {
-  window.scrollTo(0, 0);
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, 100); // Give it a short delay to fully render first
 });
+
